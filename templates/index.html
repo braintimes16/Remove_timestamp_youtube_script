@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>YouTube Timestamp Removal</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <div class="title">
+        <h1>YouTube Timestamp Removal</h1>
+    </div>
+    <div class="main-container"> <!-- 공통 컨테이너 -->
+        <div class="container input-container"> <!-- 입력 섹션 컨테이너 -->
+            <h2>Input</h2>
+            <textarea id="inputText" placeholder="Enter text here..."></textarea>
+            <button id="processButton">Remove Timestamp</button>
+        </div>
+        <div class="container output-container"> <!-- 출력 섹션 컨테이너 -->
+            <h2>Output</h2>
+            <div id="outputText" contenteditable="true"></div>
+            <button id="copyButton">Copy to Clipboard</button>
+        </div>
+    </div>
+    <script src="/static/script.js"></script>
+</body>
+</html>
